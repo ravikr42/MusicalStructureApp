@@ -1,0 +1,85 @@
+<resources>
+
+    <!--Title for The Application-->
+    <string name="app_name">Musical Structure App</string>
+
+
+    <!--App Lable-->
+    <string name="app_label">MusicApp</string>
+
+    <!--Category name for playsongs-->
+    <string name="songs">Songs</string>
+
+    <!--Categoty name for Song Details-->
+    <string name="song_detail">Song Details</string>
+
+    <!--Category name for Playlist-->
+    <string name="playlist">Playlists</string>
+
+    <!--Category name for Playlist Details-->
+    <string name="playlist_details">English Playlist</string>
+
+    <!--Category name for Playlist Details-->
+    <string name="payments">Purchase Song</string>
+
+    <!--Category name for Playlist Details-->
+    <string name="hindiPlaylist">Hindi Playlist</string>
+
+    <!--Category name for Playlist Details-->
+    <string name="mixedPlaylist">Mixed Playlist</string>
+
+    <!--Category name for Playlist Details-->
+    <string name="playingMusic">Playing Now</string>
+
+
+
+    <!--Dummy List of 15 Songs for reference-->
+    <string name="song_1">Perfect Song</string>
+    <string name="song_1_artist">Ed Sheeran</string>
+
+    <string name="song_2">Dil Diyan Gallan</string>
+    <string name="song_2_artist">Atif Aslam</string>
+
+    <string name="song_3">Aaj Se Teri</string>
+    <string name="song_3_artist">Arijit Singh</string>
+
+    <string name="song_4">Swag Se Swagat</string>
+    <string name="song_4_artist">Vishal Dadlani and Neha Bhasin</string>
+
+    <string name="song_5">Dil Chori</string>
+    <string name="song_5_artist">Yo Yo Honey Singh, Simar Kaur, Ishers | Hans Raj Hans </string>
+
+    <string name="song_6">Ban Ja Rani</string>
+    <string name="song_6_artist">Guru Randhawa</string>
+
+    <string name="song_7">Pallo Latke</string>
+    <string name="song_7_artist">Jyotica Tangri,Yasser,Fazilpuria</string>
+
+    <string name="song_8">Pal</string>
+    <string name="song_8_artist">Arijit Singh</string>
+
+    <string name="song_9">Finesse</string>
+    <string name="song_9_artist">Bruno Mars and Cardi B</string>
+
+    <string name="song_10">Best Friend</string>
+    <string name="song_10_artist">Sofi Tukker Featuring NERVO, The Knocks and Alisa Ueno</string>
+
+
+    <string-array name="songs_array">
+        <item>Perfect Song</item>
+        <item>Dil Diyan Gallan</item>
+        <item>Aaj Se Teri</item>
+        <item>Swag Se Swagat</item>
+        <item>Dil Chori</item>
+        <item>Ban Ja Rani</item>
+        <item>Pallo Latke</item>
+        <item>Pal</item>
+        <item>Finesse</item>
+        <item>Best Friend</item>
+
+    </string-array>
+
+    <string name="payment_message">Please Make a Purchase, Each Song Costs $5</string>
+
+
+</resources>

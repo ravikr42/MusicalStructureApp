@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructureapp.SongsActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song1_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song1_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song1_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn1"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song1_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song2_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song2_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song2_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn2"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song2_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song3_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song3_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song3_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_3"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn3"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song3_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song4_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song4_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song4_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_4"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn4"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song4_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song5_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song5_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song5_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_5"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn5"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song5_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song6_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song6_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song6_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn6"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song6_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song7_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song7_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song7_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_7"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn7"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song7_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song8_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song8_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song8_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_8"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn8"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song8_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song9_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song9_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song9_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_9"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn9"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song9_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_margin="12dp"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/song10_play"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/song10_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song10_play"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="@string/song_10"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/song_btn10"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/song10_name"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="details"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

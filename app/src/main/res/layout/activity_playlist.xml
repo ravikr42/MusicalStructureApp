@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.PlaylistActivity">
+
+    <TextView
+        android:id="@+id/english"
+        style="@style/categotyStyle"
+        android:background="#448AFF"
+        android:text="English Playlist" />
+
+
+    <TextView
+        android:id="@+id/hindi"
+        style="@style/categotyStyle"
+        android:background="#2979FF"
+        android:text="Hindi Playlist"
+        android:shadowRadius="0.7"
+        android:shadowDy="1"
+        android:shadowColor="@color/colorPrimary"
+        />
+
+
+    <TextView
+        android:id="@+id/all"
+        style="@style/categotyStyle"
+        android:background="#2962FF"
+        android:text="Mixed Playlist" />
+
+
+
+</LinearLayout>

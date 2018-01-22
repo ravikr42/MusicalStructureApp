@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructureapp.MixedPlaylistActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E3F2FD"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_1" />
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_9" />
+
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_2" />
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_3" />
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_4" />
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_5" />
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_6" />
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_7" />
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_8" />
+
+        <TextView
+            style="@style/playlist_Details"
+            android:text="@string/song_10" />
+
+
+    </LinearLayout>
+</ScrollView>

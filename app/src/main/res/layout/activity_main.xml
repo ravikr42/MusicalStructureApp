@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+    <TextView
+        android:id="@+id/songs"
+        style="@style/categotyStyle"
+        android:background="#E0F7FA"
+        android:text="@string/songs"
+        android:shadowRadius="0.7"
+        android:shadowDy="1"
+        android:shadowColor="@color/colorPrimary"
+        />
+
+
+    <TextView
+        android:id="@+id/playlists"
+        style="@style/categotyStyle"
+        android:background="#B2EBF2"
+        android:text="@string/playlist"
+        android:shadowRadius="0.7"
+        android:shadowDy="1"
+        android:shadowColor="@color/colorPrimary"
+        />
+
+
+    <TextView
+        android:id="@+id/purchase"
+        style="@style/categotyStyle"
+        android:background="#80DEEA"
+        android:text="@string/payments"
+        android:shadowRadius="0.7"
+        android:shadowDy="1"
+        android:shadowColor="@color/colorPrimary"
+
+        />
+
+
+</LinearLayout>
